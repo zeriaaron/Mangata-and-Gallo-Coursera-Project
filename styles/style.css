@@ -87,6 +87,22 @@ nav > ul {
 
 /* Footer */
 
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copy {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
 div > img {
     width: 20%;
     height: 20%;
